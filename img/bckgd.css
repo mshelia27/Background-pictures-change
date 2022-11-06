@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('background.JPG ');
+    
+    
+
+}
+.images{
+    background: yellow;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url('bcg-0.JPG');
+    border-radius: 15px;
+    box-shadow: 5px 10px;
+    position: relative;
+}
+.prevBtn{
+    display: inline-block;
+    background: white;
+    color: black;
+    border: 3px solid green;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.nextBtn{
+    display: inline-block;
+    background: white;
+    color: black;
+    border: 3px solid green;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+}
